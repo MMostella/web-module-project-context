@@ -105,15 +105,15 @@ const { products, addItem } = useContext(ProductContext);
   - [1] Remove it from the products map
   - [1] Remove it from addItem prop
 
-- Now our `Products` component is getting it's data solely from `Context API` 😃.
+- [1] Now our `Products` component is getting it's data solely from `Context API` 😃.
 
 **STEP 5 - Create the CartContext**
 
-- Now that we have refactored our `Products` component to utilize `Context API` let's refactor our `Cart` and `Navigation` Component to use `Context API` as well.
+- [1] Now that we have refactored our `Products` component to utilize `Context API` let's refactor our `Cart` and `Navigation` Component to use `Context API` as well.
 
-- To start create a new file in our contexts folder named `CartContext.js`, this context is going to be utilized by our `ShoppingCart` and `Navigation` component.
+- [1] To start create a new file in our contexts folder named `CartContext.js`, this context is going to be utilized by our `ShoppingCart` and `Navigation` component.
 
-- Inside of our new `CartContext` import `createContext` and create a new context named `CartContext`.
+- [1] Inside of our new `CartContext` import `createContext` and create a new context named `CartContext`.
 
 **STEP 6 - Providing data with CartContext**
 
